@@ -1,0 +1,119 @@
+.hero {
+  background-image: url('/images/img2.jpg'); 
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero h1, .hero p {
+  color: white;
+}
+
+.hero .btn {
+  background-color: #28a745;
+  border: none;
+  margin-top: 1rem;
+}
+
+.container.mt-5 {
+  margin-top: 2rem;
+}
+
+.features i {
+  font-size: 3rem;
+}
+
+.features h4 {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+.features p {
+  font-size: 1rem;
+}
+
+.gallery img {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+.testimonials {
+  background-color: ghostwhite; 
+  padding: 3rem 0;
+  color: black; 
+}
+
+.testimonial-card {
+  background-color: transparent; 
+  border: none; 
+  padding: 1.5rem;
+  border-radius: 8px;
+  color: black; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.testimonial-card h5 {
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+footer {
+  background-color: rgb(240, 227, 208); 
+  color: black;
+  padding: 3rem 0;
+}
+
+footer .container h5 {
+  font-weight: bold;
+}
+
+footer .quick-links a {
+  color: black;
+  text-decoration: none; 
+}
+
+footer a {
+  font-size: 1rem;
+  color: black;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer .social-icons a {
+  font-size: 1.5rem;
+  color: black;
+}
+
+footer .social-icons i {
+  margin-right: 20px;
+  color: black;
+}
+
+footer hr {
+  border-color: rgba(255, 255, 255, 0.2); 
+}
+
+@media (max-width: 767px) {
+  footer .container {
+    text-align: center;
+  }
+
+  footer .row {
+    margin-top: 30px;
+  }
+
+  footer .col-md-4 {
+    margin-bottom: 50px;
+  }
+}
